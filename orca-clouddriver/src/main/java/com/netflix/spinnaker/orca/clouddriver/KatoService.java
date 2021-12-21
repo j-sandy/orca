@@ -41,6 +41,7 @@ public class KatoService {
   }
 
   public TaskId requestOperations(Collection<? extends Map<String, Map>> operations) {
+    log.debug("Kato Service requestOperations: {}", operations);
     return retrySupport.retry(
         () -> katoRestService.requestOperations(requestId(operations), operations),
         3,
@@ -50,6 +51,8 @@ public class KatoService {
 
   public TaskId requestOperations(
       String cloudProvider, Collection<? extends Map<String, Map>> operations) {
+    log.debug(
+        "Kato Service requestOperations with Cloudprovider: {} {}", cloudProvider, operations);
     return retrySupport.retry(
         () -> katoRestService.requestOperations(requestId(operations), cloudProvider, operations),
         3,
@@ -59,6 +62,7 @@ public class KatoService {
 
   public SubmitOperationResult submitOperation(
       @Nonnull String cloudProvider, OperationContext operation) {
+    log.debug("Kato Service submitOperation with Cloudprovider: {} {}", cloudProvider, operation);
     Response response =
         katoRestService.submitOperation(
             requestId(operation), cloudProvider, operation.getOperationType(), operation);
