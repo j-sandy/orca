@@ -127,6 +127,7 @@ public class ExecutionLauncher {
   }
 
   public PipelineExecution start(PipelineExecution execution) throws Exception {
+    log.debug("plugin-test : In ExecutionLauncher start pipeline execution {}", execution);
     executionRunner.start(execution);
     return execution;
   }
@@ -207,6 +208,7 @@ public class ExecutionLauncher {
 
   private PipelineExecution parsePipeline(String configJson) throws IOException {
     // TODO: can we not just annotate the class properly to avoid all this?
+    log.debug("plugin-test : In ExecutionLauncher parsePipeline: configjson : {}", configJson);
     Map<String, Serializable> config = objectMapper.readValue(configJson, Map.class);
     return new PipelineBuilder(getString(config, "application"))
         .withId(getString(config, "executionId"))
@@ -232,6 +234,7 @@ public class ExecutionLauncher {
   }
 
   private PipelineExecution parseOrchestration(String configJson) throws IOException {
+    log.debug("plugin-test : In ExecutionLauncher parseOrchestration: configjson : {}", configJson);
     @SuppressWarnings("unchecked")
     Map<String, Serializable> config = objectMapper.readValue(configJson, Map.class);
     PipelineExecution orchestration =

@@ -168,6 +168,7 @@ private fun StageExecution.buildExecutionWindow(): StageExecution? {
 
 @Suppress("UNCHECKED_CAST")
 private fun PipelineExecution.injectStage(index: Int, stage: StageExecution) {
+  System.out.println("plugin-test : q.StageDefinitionBuilders index: "+index+" Stage : "+stage)
   stages.add(index, stage)
 }
 

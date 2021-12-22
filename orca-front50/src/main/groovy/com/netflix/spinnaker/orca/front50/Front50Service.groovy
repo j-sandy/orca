@@ -74,7 +74,7 @@ interface Front50Service {
   @POST("/pipelines")
   Response savePipeline(@Body Map pipeline, @Query("staleCheck") boolean staleCheck)
 
-  @PUT("/pipelines/{pipelineId}")
+  @PUT("/pipelines/{pipelineId}") //Find no usage in the code of this call.
   Response updatePipeline(@Path("pipelineId") String pipelineId, @Body Map pipeline)
 
   @GET("/strategies/{applicationName}")
