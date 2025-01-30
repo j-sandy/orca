@@ -18,6 +18,7 @@ package com.netflix.spinnaker.orca.clouddriver.pipeline.providers.aws.lambda;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors.csrf;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.netflix.spinnaker.orca.StageResolver;
@@ -32,11 +33,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.http.MediaType;
 import org.springframework.mock.web.MockHttpServletResponse;
+import org.springframework.security.test.context.support.WithMockUser;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
 @AutoConfigureMockMvc
+@WithMockUser
 public class LambdaTrafficRoutingStageTest extends OrcaFixture {
 
   @Autowired StageResolver stageResolver;
@@ -59,7 +62,7 @@ public class LambdaTrafficRoutingStageTest extends OrcaFixture {
         "lambdaTrafficRouting",
         "Expected stageDefinitionBuilder to be of type lambdaTrafficRouting");
   }
-
+  // @WithMockUser(username = "xyz")
   @Test
   public void LambdaTrafficRoutingStageIntegrationTest() throws Exception {
     String content =
@@ -82,6 +85,7 @@ public class LambdaTrafficRoutingStageTest extends OrcaFixture {
         this.mockMvc
             .perform(
                 MockMvcRequestBuilders.post("/orchestrate")
+                    .with(csrf())
                     .content(content)
                     .contentType(MediaType.APPLICATION_JSON))
             .andReturn();
@@ -89,9 +93,11 @@ public class LambdaTrafficRoutingStageTest extends OrcaFixture {
     assertEquals(response.getStatus(), 200);
 
     Map map = mapper.readValue(response.getContentAsString(), Map.class);
+    System.out.println("####### " + map.get("ref").toString());
     final MvcResult getResults =
         mockMvc.perform(MockMvcRequestBuilders.get((String) map.get("ref"))).andReturn();
 
+    System.out.println("####### " + getResults.getResponse().getStatus());
     Execution execution =
         mapper.readValue(getResults.getResponse().getContentAsString(), Execution.class);
     LambdaTrafficUpdateInput context = execution.getStages().get(0).getContext();

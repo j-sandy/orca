@@ -34,8 +34,8 @@ import com.netflix.spinnaker.orca.clouddriver.tasks.servergroup.ServerGroupCache
 import com.netflix.spinnaker.orca.kato.tasks.DisableInstancesTask;
 import com.netflix.spinnaker.orca.kato.tasks.rollingpush.*;
 import com.netflix.spinnaker.orca.pipeline.tasks.WaitTask;
+import jakarta.annotation.Nonnull;
 import java.util.Map;
-import javax.annotation.Nonnull;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -19,8 +19,8 @@ package com.netflix.spinnaker.orca;
 import static java.lang.String.format;
 
 import com.netflix.spinnaker.orca.api.pipeline.graph.StageDefinitionBuilder;
+import jakarta.annotation.Nonnull;
 import java.util.Collection;
-import javax.annotation.Nonnull;
 
 /**
  * {@code StageResolver} allows for {@code StageDefinitionBuilder} retrieval via bean name or alias.

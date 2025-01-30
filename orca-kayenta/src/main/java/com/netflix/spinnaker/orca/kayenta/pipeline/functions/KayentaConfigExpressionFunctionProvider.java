@@ -21,9 +21,9 @@ import com.netflix.spinnaker.kork.api.expressions.ExpressionFunctionProvider;
 import com.netflix.spinnaker.kork.expressions.SpelHelperFunctionException;
 import com.netflix.spinnaker.orca.kayenta.KayentaCanaryConfig;
 import com.netflix.spinnaker.orca.kayenta.KayentaService;
+import jakarta.annotation.Nullable;
 import java.util.List;
 import java.util.Optional;
-import javax.annotation.Nullable;
 import org.jetbrains.annotations.NotNull;
 import org.springframework.stereotype.Component;
 

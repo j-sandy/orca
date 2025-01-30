@@ -25,7 +25,7 @@ import com.netflix.spinnaker.orca.clouddriver.config.TaskConfigurationProperties
 import com.netflix.spinnaker.orca.clouddriver.tasks.AbstractCheckIfApplicationExistsTask;
 import com.netflix.spinnaker.orca.clouddriver.utils.MonikerHelper;
 import com.netflix.spinnaker.orca.front50.Front50Service;
-import javax.annotation.Nonnull;
+import jakarta.annotation.Nonnull;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.lang.Nullable;
 import org.springframework.stereotype.Component;

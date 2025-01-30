@@ -28,11 +28,11 @@ import com.netflix.spinnaker.orca.igor.model.AwsCodeBuildStageDefinition.AwsCode
 import com.netflix.spinnaker.orca.igor.model.AwsCodeBuildStageDefinition.AwsCodeBuildSource;
 import com.netflix.spinnaker.orca.igor.model.AwsCodeBuildStageDefinition.AwsCodeBuildSourceArtifact;
 import com.netflix.spinnaker.orca.pipeline.util.ArtifactUtils;
+import jakarta.annotation.Nonnull;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import javax.annotation.Nonnull;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 

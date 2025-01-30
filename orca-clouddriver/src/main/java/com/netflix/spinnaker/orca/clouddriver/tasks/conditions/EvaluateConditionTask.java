@@ -27,13 +27,13 @@ import com.netflix.spinnaker.orca.clouddriver.pipeline.conditions.ConditionConfi
 import com.netflix.spinnaker.orca.clouddriver.pipeline.conditions.ConditionSupplier;
 import com.netflix.spinnaker.orca.clouddriver.pipeline.conditions.WaitForConditionStage.WaitForConditionContext;
 import com.netflix.spinnaker.orca.clouddriver.pipeline.conditions.WaitForConditionStage.WaitForConditionContext.Status;
+import jakarta.annotation.Nonnull;
 import java.time.Clock;
 import java.time.Duration;
 import java.time.Instant;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
-import javax.annotation.Nonnull;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

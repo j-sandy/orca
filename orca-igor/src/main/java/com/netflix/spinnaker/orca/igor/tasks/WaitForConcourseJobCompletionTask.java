@@ -23,9 +23,9 @@ import com.netflix.spinnaker.orca.api.pipeline.models.StageExecution;
 import com.netflix.spinnaker.orca.igor.BuildService;
 import com.netflix.spinnaker.orca.igor.model.ConcourseStageDefinition;
 import com.netflix.spinnaker.orca.pipeline.model.ConcourseBuildInfo;
+import jakarta.annotation.Nonnull;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
-import javax.annotation.Nonnull;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 

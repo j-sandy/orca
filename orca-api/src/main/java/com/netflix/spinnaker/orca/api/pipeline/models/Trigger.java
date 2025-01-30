@@ -19,10 +19,10 @@ import com.netflix.spinnaker.kork.annotations.Beta;
 import com.netflix.spinnaker.kork.artifacts.model.Artifact;
 import com.netflix.spinnaker.kork.artifacts.model.ExpectedArtifact;
 import com.netflix.spinnaker.orca.api.annotations.Immutable;
+import jakarta.annotation.Nonnull;
+import jakarta.annotation.Nullable;
 import java.util.List;
 import java.util.Map;
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
 
 /** The originating cause of a pipeline's execution, including associated metadata. */
 @Beta

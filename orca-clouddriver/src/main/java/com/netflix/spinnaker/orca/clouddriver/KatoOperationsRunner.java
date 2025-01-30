@@ -5,7 +5,7 @@ import com.netflix.spinnaker.orca.api.operations.OperationsInput;
 import com.netflix.spinnaker.orca.api.operations.OperationsRunner;
 import com.netflix.spinnaker.orca.clouddriver.model.KatoOperationsContext;
 import com.netflix.spinnaker.orca.clouddriver.model.TaskId;
-import javax.annotation.Nonnull;
+import jakarta.annotation.Nonnull;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

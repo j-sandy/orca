@@ -37,8 +37,8 @@ import org.slf4j.LoggerFactory
 
 import org.springframework.stereotype.Component
 
-import javax.annotation.Nonnull
-import javax.annotation.Nullable
+import jakarta.annotation.Nonnull
+import jakarta.annotation.Nullable
 import java.time.Duration
 import java.time.format.DateTimeParseException
 import java.util.concurrent.TimeUnit

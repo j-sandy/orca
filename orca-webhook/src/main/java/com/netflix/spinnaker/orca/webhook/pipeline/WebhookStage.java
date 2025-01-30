@@ -28,9 +28,9 @@ import com.netflix.spinnaker.orca.pipeline.tasks.artifacts.BindProducedArtifacts
 import com.netflix.spinnaker.orca.webhook.config.WebhookProperties;
 import com.netflix.spinnaker.orca.webhook.tasks.CreateWebhookTask;
 import com.netflix.spinnaker.orca.webhook.tasks.MonitorWebhookTask;
+import jakarta.annotation.Nonnull;
 import java.util.List;
 import java.util.Map;
-import javax.annotation.Nonnull;
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

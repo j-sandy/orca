@@ -22,8 +22,8 @@ import com.netflix.spinnaker.orca.api.pipeline.models.StageExecution;
 import com.netflix.spinnaker.orca.clouddriver.KatoService;
 import com.netflix.spinnaker.orca.clouddriver.model.OperationContext;
 import com.netflix.spinnaker.orca.clouddriver.model.SubmitOperationResult;
+import jakarta.annotation.Nonnull;
 import java.time.Duration;
-import javax.annotation.Nonnull;
 import org.springframework.stereotype.Component;
 
 @Component

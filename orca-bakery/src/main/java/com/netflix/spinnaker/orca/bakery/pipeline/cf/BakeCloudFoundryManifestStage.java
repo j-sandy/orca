@@ -23,7 +23,7 @@ import com.netflix.spinnaker.orca.bakery.tasks.manifests.cf.BakeCloudFoundryMani
 import com.netflix.spinnaker.orca.clouddriver.utils.CloudProviderAware;
 import com.netflix.spinnaker.orca.pipeline.tasks.artifacts.BindProducedArtifactsTask;
 import groovy.transform.CompileStatic;
-import javax.annotation.Nonnull;
+import jakarta.annotation.Nonnull;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 

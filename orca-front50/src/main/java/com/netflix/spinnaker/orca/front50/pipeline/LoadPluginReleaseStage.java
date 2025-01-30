@@ -20,7 +20,7 @@ import com.netflix.spinnaker.orca.api.pipeline.graph.TaskNode;
 import com.netflix.spinnaker.orca.api.pipeline.models.StageExecution;
 import com.netflix.spinnaker.orca.front50.tasks.ExtractRequiredPluginDependenciesTask;
 import com.netflix.spinnaker.orca.front50.tasks.LoadPluginReleaseTask;
-import javax.annotation.Nonnull;
+import jakarta.annotation.Nonnull;
 import org.springframework.stereotype.Component;
 
 @Component

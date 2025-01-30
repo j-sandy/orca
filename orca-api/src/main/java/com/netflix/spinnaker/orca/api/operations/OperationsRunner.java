@@ -1,6 +1,6 @@
 package com.netflix.spinnaker.orca.api.operations;
 
-import javax.annotation.Nonnull;
+import jakarta.annotation.Nonnull;
 
 /** An operations runner will run one or more operation and return the resulting context. */
 public interface OperationsRunner {

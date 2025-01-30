@@ -32,12 +32,12 @@ import com.netflix.spinnaker.orca.deploymentmonitor.models.DeploymentStep;
 import com.netflix.spinnaker.orca.deploymentmonitor.models.EvaluateHealthResponse;
 import com.netflix.spinnaker.orca.deploymentmonitor.models.MonitoredDeployInternalStageData;
 import com.netflix.spinnaker.orca.deploymentmonitor.models.StatusExplanation;
+import jakarta.annotation.Nonnull;
+import jakarta.annotation.Nullable;
 import java.time.Duration;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

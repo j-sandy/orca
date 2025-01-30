@@ -28,9 +28,9 @@ import com.netflix.spinnaker.orca.clouddriver.tasks.providers.aws.lambda.model.i
 import com.netflix.spinnaker.orca.clouddriver.tasks.providers.aws.lambda.model.output.LambdaCloudOperationOutput;
 import com.netflix.spinnaker.orca.clouddriver.tasks.providers.aws.lambda.model.output.LambdaUpdateEventConfigurationTaskOutput;
 import com.netflix.spinnaker.orca.clouddriver.utils.LambdaCloudDriverUtils;
+import jakarta.annotation.Nonnull;
 import java.util.*;
 import java.util.stream.Collectors;
-import javax.annotation.Nonnull;
 import org.apache.commons.lang3.tuple.Pair;
 import org.pf4j.util.StringUtils;
 import org.slf4j.Logger;

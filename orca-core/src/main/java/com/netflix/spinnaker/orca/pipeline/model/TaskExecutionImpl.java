@@ -20,10 +20,10 @@ import static com.netflix.spinnaker.orca.api.pipeline.models.ExecutionStatus.NOT
 
 import com.netflix.spinnaker.orca.api.pipeline.models.ExecutionStatus;
 import com.netflix.spinnaker.orca.api.pipeline.models.TaskExecution;
+import jakarta.annotation.Nonnull;
+import jakarta.annotation.Nullable;
 import java.util.HashMap;
 import java.util.Map;
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
 
 /** A "task" is a component piece of a stage */
 public class TaskExecutionImpl implements TaskExecution {

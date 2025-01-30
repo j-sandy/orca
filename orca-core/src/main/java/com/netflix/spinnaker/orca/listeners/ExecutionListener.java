@@ -18,7 +18,7 @@ package com.netflix.spinnaker.orca.listeners;
 
 import com.netflix.spinnaker.orca.api.pipeline.models.ExecutionStatus;
 import com.netflix.spinnaker.orca.api.pipeline.models.PipelineExecution;
-import javax.annotation.Nonnull;
+import jakarta.annotation.Nonnull;
 import org.springframework.core.Ordered;
 
 public interface ExecutionListener extends Ordered, Comparable<ExecutionListener> {

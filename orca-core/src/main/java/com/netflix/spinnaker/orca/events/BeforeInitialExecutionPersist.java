@@ -16,7 +16,7 @@
 package com.netflix.spinnaker.orca.events;
 
 import com.netflix.spinnaker.orca.api.pipeline.models.PipelineExecution;
-import javax.annotation.Nonnull;
+import jakarta.annotation.Nonnull;
 import org.springframework.context.ApplicationEvent;
 
 /** An event emitted immediately before the initial persist of an execution. */

@@ -21,10 +21,10 @@ import static java.util.stream.Collectors.toList;
 import com.google.common.collect.ForwardingMap;
 import com.netflix.spinnaker.orca.api.pipeline.models.StageExecution;
 import com.netflix.spinnaker.orca.api.pipeline.models.Trigger;
+import jakarta.annotation.Nullable;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import javax.annotation.Nullable;
 
 public class StageContext extends ForwardingMap<String, Object> implements Map<String, Object> {
 

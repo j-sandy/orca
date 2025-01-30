@@ -29,7 +29,7 @@ import com.netflix.spinnaker.orca.kato.pipeline.support.TargetReferenceSupport
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Component
 
-import javax.annotation.Nonnull
+import jakarta.annotation.Nonnull
 
 import static com.netflix.spinnaker.orca.kato.pipeline.DestroyAsgStage.DESTROY_ASG_DESCRIPTIONS_KEY
 

@@ -17,7 +17,7 @@
 package com.netflix.spinnaker.orca.events;
 
 import com.netflix.spinnaker.orca.api.pipeline.models.StageExecution;
-import javax.annotation.Nonnull;
+import jakarta.annotation.Nonnull;
 import lombok.Getter;
 
 public final class StageStarted extends ExecutionEvent {

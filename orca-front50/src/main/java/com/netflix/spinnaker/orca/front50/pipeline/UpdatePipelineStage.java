@@ -20,7 +20,7 @@ import com.netflix.spinnaker.orca.api.pipeline.graph.TaskNode.Builder;
 import com.netflix.spinnaker.orca.api.pipeline.models.StageExecution;
 import com.netflix.spinnaker.orca.front50.tasks.SavePipelineTask;
 import com.netflix.spinnaker.orca.front50.tasks.SaveServiceAccountTask;
-import javax.annotation.Nonnull;
+import jakarta.annotation.Nonnull;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 

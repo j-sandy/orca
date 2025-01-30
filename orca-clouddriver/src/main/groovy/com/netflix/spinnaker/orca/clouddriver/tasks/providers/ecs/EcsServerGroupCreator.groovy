@@ -30,7 +30,7 @@ import groovy.util.logging.Slf4j
 import org.springframework.beans.factory.annotation.Autowired
 import retrofit.client.Response
 
-import javax.annotation.Nullable
+import jakarta.annotation.Nullable
 import org.springframework.stereotype.Component
 import com.fasterxml.jackson.core.type.TypeReference
 import com.google.common.collect.ImmutableMap

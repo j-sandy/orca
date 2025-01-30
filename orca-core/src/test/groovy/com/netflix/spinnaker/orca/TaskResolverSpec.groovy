@@ -26,7 +26,7 @@ import spock.lang.Specification
 import spock.lang.Subject
 import spock.lang.Unroll
 
-import javax.annotation.Nonnull;
+import jakarta.annotation.Nonnull;
 
 class TaskResolverSpec extends Specification {
   @Subject

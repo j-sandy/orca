@@ -23,7 +23,7 @@ import com.netflix.spinnaker.orca.clouddriver.tasks.MonitorKatoTask;
 import com.netflix.spinnaker.orca.clouddriver.tasks.image.ImageForceCacheRefreshTask;
 import com.netflix.spinnaker.orca.clouddriver.tasks.image.UpsertImageTagsTask;
 import com.netflix.spinnaker.orca.clouddriver.tasks.image.WaitForUpsertedImageTagsTask;
-import javax.annotation.Nonnull;
+import jakarta.annotation.Nonnull;
 import org.springframework.stereotype.Component;
 
 @Component

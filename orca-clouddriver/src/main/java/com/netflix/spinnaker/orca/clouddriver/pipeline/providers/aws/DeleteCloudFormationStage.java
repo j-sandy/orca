@@ -23,7 +23,7 @@ import com.netflix.spinnaker.orca.clouddriver.tasks.MonitorKatoTask;
 import com.netflix.spinnaker.orca.clouddriver.tasks.providers.aws.cloudformation.CloudFormationForceCacheRefreshTask;
 import com.netflix.spinnaker.orca.clouddriver.tasks.providers.aws.cloudformation.DeleteCloudFormationTask;
 import com.netflix.spinnaker.orca.clouddriver.tasks.providers.aws.cloudformation.WaitForCloudFormationCompletionTask;
-import javax.annotation.Nonnull;
+import jakarta.annotation.Nonnull;
 
 public class DeleteCloudFormationStage implements StageDefinitionBuilder {
   public static final String PIPELINE_CONFIG_TYPE = "deleteCloudFormation";

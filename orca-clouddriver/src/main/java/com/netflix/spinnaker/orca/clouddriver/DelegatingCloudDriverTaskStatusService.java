@@ -19,7 +19,7 @@ package com.netflix.spinnaker.orca.clouddriver;
 import com.netflix.spinnaker.kork.web.selector.SelectableService;
 import com.netflix.spinnaker.orca.clouddriver.model.Task;
 import com.netflix.spinnaker.orca.clouddriver.model.TaskOwner;
-import javax.annotation.Nonnull;
+import jakarta.annotation.Nonnull;
 
 public class DelegatingCloudDriverTaskStatusService
     extends DelegatingClouddriverService<CloudDriverTaskStatusService>

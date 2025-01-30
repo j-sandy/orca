@@ -34,8 +34,8 @@ import com.netflix.spinnaker.orca.clouddriver.tasks.providers.kubernetes.Manifes
 import com.netflix.spinnaker.orca.clouddriver.tasks.providers.kubernetes.ManifestAnnotationExtractor;
 import com.netflix.spinnaker.orca.jackson.OrcaObjectMapper;
 import com.netflix.spinnaker.orca.pipeline.tasks.artifacts.BindProducedArtifactsTask;
+import jakarta.annotation.Nonnull;
 import java.util.*;
-import javax.annotation.Nonnull;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;

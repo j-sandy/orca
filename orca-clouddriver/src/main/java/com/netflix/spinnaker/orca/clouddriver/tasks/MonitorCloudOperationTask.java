@@ -18,8 +18,8 @@ package com.netflix.spinnaker.orca.clouddriver.tasks;
 import com.netflix.spinnaker.orca.api.pipeline.RetryableTask;
 import com.netflix.spinnaker.orca.api.pipeline.TaskResult;
 import com.netflix.spinnaker.orca.api.pipeline.models.StageExecution;
+import jakarta.annotation.Nonnull;
 import java.time.Duration;
-import javax.annotation.Nonnull;
 import org.springframework.stereotype.Component;
 
 @Component

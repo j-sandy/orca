@@ -23,6 +23,7 @@ import com.netflix.spinnaker.kork.annotations.Beta;
 import com.netflix.spinnaker.kork.plugins.api.internal.SpinnakerExtensionPoint;
 import com.netflix.spinnaker.orca.api.pipeline.graph.TaskNode.TaskGraph;
 import com.netflix.spinnaker.orca.api.pipeline.models.StageExecution;
+import jakarta.annotation.Nonnull;
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
@@ -30,7 +31,6 @@ import java.lang.annotation.Target;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
-import javax.annotation.Nonnull;
 
 /**
  * Provides a low-level API for building stages.

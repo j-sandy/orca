@@ -23,7 +23,7 @@ import com.netflix.spinnaker.orca.api.pipeline.graph.TaskNode
 import groovy.transform.CompileStatic
 import org.springframework.stereotype.Component
 
-import javax.annotation.Nonnull
+import jakarta.annotation.Nonnull
 
 @Component
 @CompileStatic

@@ -24,7 +24,7 @@ import com.netflix.spinnaker.orca.clouddriver.tasks.providers.cf.UnmapLoadBalanc
 import com.netflix.spinnaker.orca.clouddriver.tasks.servergroup.ServerGroupCacheForceRefreshTask;
 import com.netflix.spinnaker.orca.clouddriver.utils.CloudProviderAware;
 import groovy.transform.CompileStatic;
-import javax.annotation.Nonnull;
+import jakarta.annotation.Nonnull;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 

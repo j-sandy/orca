@@ -27,12 +27,12 @@ import com.netflix.spinnaker.orca.clouddriver.config.CloudDriverConfigurationPro
 import com.netflix.spinnaker.orca.clouddriver.config.LambdaConfigurationProperties;
 import com.netflix.spinnaker.orca.clouddriver.tasks.providers.aws.lambda.model.input.LambdaCacheRefreshInput;
 import com.netflix.spinnaker.orca.clouddriver.utils.LambdaCloudDriverUtils;
+import jakarta.annotation.Nonnull;
 import java.io.IOException;
 import java.time.Duration;
 import java.util.Collection;
 import java.util.List;
 import java.util.Map;
-import javax.annotation.Nonnull;
 import lombok.Data;
 import okhttp3.*;
 import org.slf4j.Logger;

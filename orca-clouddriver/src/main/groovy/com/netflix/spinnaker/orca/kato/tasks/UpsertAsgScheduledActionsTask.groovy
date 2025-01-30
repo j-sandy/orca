@@ -25,7 +25,7 @@ import com.netflix.spinnaker.orca.kato.pipeline.support.AsgDescriptionSupport
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Component
 
-import javax.annotation.Nonnull
+import jakarta.annotation.Nonnull
 
 @Component
 class UpsertAsgScheduledActionsTask implements Task {

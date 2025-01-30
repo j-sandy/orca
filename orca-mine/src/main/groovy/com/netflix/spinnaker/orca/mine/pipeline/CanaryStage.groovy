@@ -24,7 +24,7 @@ import com.netflix.spinnaker.orca.clouddriver.model.ServerGroup
 import com.netflix.spinnaker.orca.pipeline.model.StageExecutionImpl
 
 import java.util.concurrent.TimeUnit
-import javax.annotation.Nonnull
+import jakarta.annotation.Nonnull
 import com.netflix.frigga.autoscaling.AutoScalingGroupNameBuilder
 import com.netflix.spinnaker.kork.core.RetrySupport
 import com.netflix.spinnaker.orca.api.pipeline.CancellableStage

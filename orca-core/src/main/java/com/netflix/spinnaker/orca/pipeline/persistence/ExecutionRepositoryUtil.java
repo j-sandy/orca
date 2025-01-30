@@ -19,11 +19,11 @@ import static com.netflix.spinnaker.orca.api.pipeline.SyntheticStageOwner.STAGE_
 
 import com.netflix.spinnaker.orca.api.pipeline.models.PipelineExecution;
 import com.netflix.spinnaker.orca.api.pipeline.models.StageExecution;
+import jakarta.annotation.Nonnull;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
-import javax.annotation.Nonnull;
 
 public class ExecutionRepositoryUtil {
 

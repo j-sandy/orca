@@ -21,7 +21,7 @@ import com.netflix.spinnaker.orca.api.pipeline.graph.StageGraphBuilder
 import com.netflix.spinnaker.orca.clouddriver.model.Instance.InstanceInfo
 import com.netflix.spinnaker.orca.pipeline.StageExecutionFactory
 
-import javax.annotation.Nonnull
+import jakarta.annotation.Nonnull
 import com.netflix.spinnaker.orca.api.pipeline.models.ExecutionStatus
 import com.netflix.spinnaker.orca.clouddriver.utils.OortHelper
 import com.netflix.spinnaker.orca.kato.tasks.quip.ResolveQuipVersionTask

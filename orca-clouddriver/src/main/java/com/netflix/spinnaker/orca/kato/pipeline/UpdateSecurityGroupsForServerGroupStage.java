@@ -25,7 +25,7 @@ import com.netflix.spinnaker.orca.clouddriver.tasks.instance.UpdateInstancesTask
 import com.netflix.spinnaker.orca.clouddriver.tasks.servergroup.ServerGroupCacheForceRefreshTask;
 import com.netflix.spinnaker.orca.clouddriver.tasks.servergroup.UpdateLaunchConfigTask;
 import com.netflix.spinnaker.orca.clouddriver.tasks.servergroup.UpdateLaunchTemplateTask;
-import javax.annotation.Nonnull;
+import jakarta.annotation.Nonnull;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

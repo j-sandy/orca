@@ -24,10 +24,10 @@ import com.netflix.spinnaker.orca.clouddriver.tasks.providers.aws.lambda.model.L
 import com.netflix.spinnaker.orca.clouddriver.tasks.providers.aws.lambda.model.input.LambdaInvokeStageInput;
 import com.netflix.spinnaker.orca.clouddriver.tasks.providers.aws.lambda.model.input.LambdaTrafficUpdateInput;
 import com.netflix.spinnaker.orca.clouddriver.utils.LambdaCloudDriverUtils;
+import jakarta.annotation.Nonnull;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
-import javax.annotation.Nonnull;
 import org.pf4j.util.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

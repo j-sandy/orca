@@ -29,7 +29,7 @@ import com.netflix.spinnaker.orca.pipeline.WaitStage
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Component
 
-import javax.annotation.Nonnull
+import jakarta.annotation.Nonnull
 
 import static com.netflix.spinnaker.orca.mine.pipeline.CanaryStage.DEFAULT_CLUSTER_DISABLE_WAIT_TIME
 

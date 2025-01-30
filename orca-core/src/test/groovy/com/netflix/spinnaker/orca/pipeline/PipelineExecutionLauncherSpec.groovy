@@ -21,7 +21,7 @@ import com.netflix.spinnaker.orca.config.ExecutionConfigurationProperties
 import com.netflix.spinnaker.orca.events.BeforeInitialExecutionPersist
 import org.springframework.context.ApplicationEventPublisher
 
-import javax.annotation.Nonnull
+import jakarta.annotation.Nonnull
 import java.time.Clock
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.netflix.spectator.api.Registry

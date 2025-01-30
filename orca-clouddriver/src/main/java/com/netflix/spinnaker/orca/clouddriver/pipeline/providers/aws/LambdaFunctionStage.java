@@ -21,7 +21,7 @@ import com.netflix.spinnaker.orca.api.pipeline.models.StageExecution;
 import com.netflix.spinnaker.orca.clouddriver.tasks.MonitorKatoTask;
 import com.netflix.spinnaker.orca.clouddriver.tasks.providers.aws.lambda.LambdaFunctionForceRefreshTask;
 import com.netflix.spinnaker.orca.clouddriver.tasks.providers.aws.lambda.LambdaFunctionTask;
-import javax.annotation.Nonnull;
+import jakarta.annotation.Nonnull;
 import org.springframework.stereotype.Component;
 
 @Component

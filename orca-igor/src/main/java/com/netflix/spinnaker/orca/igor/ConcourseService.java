@@ -20,8 +20,8 @@ import com.google.common.cache.Cache;
 import com.google.common.cache.CacheBuilder;
 import com.netflix.spinnaker.orca.api.pipeline.models.StageExecution;
 import com.netflix.spinnaker.orca.igor.model.ConcourseStageExecution;
+import jakarta.annotation.Nullable;
 import java.util.concurrent.TimeUnit;
-import javax.annotation.Nullable;
 import org.springframework.stereotype.Component;
 
 @Component

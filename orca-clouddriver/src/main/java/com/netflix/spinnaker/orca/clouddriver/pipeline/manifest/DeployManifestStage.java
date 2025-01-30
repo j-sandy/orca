@@ -37,10 +37,10 @@ import com.netflix.spinnaker.orca.clouddriver.tasks.manifest.DeployManifestConte
 import com.netflix.spinnaker.orca.pipeline.ExpressionAwareStageDefinitionBuilder;
 import com.netflix.spinnaker.orca.pipeline.tasks.artifacts.BindProducedArtifactsTask;
 import com.netflix.spinnaker.orca.pipeline.util.ContextParameterProcessor;
+import jakarta.annotation.Nonnull;
 import java.util.*;
 import java.util.function.BiConsumer;
 import java.util.stream.Collectors;
-import javax.annotation.Nonnull;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import org.jetbrains.annotations.NotNull;

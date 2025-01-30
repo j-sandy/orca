@@ -17,8 +17,8 @@ package com.netflix.spinnaker.orca.api.pipeline.graph;
 
 import com.netflix.spinnaker.kork.annotations.Beta;
 import com.netflix.spinnaker.orca.api.pipeline.models.StageExecution;
+import jakarta.annotation.Nonnull;
 import java.util.function.Consumer;
-import javax.annotation.Nonnull;
 
 /** Provides a low-level API for manipulating a stage DAG. */
 @Beta

@@ -28,7 +28,7 @@ import com.netflix.spinnaker.orca.clouddriver.utils.CloudProviderAware
 import groovy.util.logging.Slf4j
 import org.springframework.beans.factory.annotation.Autowired
 
-import javax.annotation.Nonnull
+import jakarta.annotation.Nonnull
 
 @Slf4j
 abstract class AbstractAwsScalingProcessTask implements CloudProviderAware, Task {

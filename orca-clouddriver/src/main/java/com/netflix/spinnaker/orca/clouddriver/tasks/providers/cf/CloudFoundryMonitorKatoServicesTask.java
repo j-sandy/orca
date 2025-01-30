@@ -28,9 +28,9 @@ import com.netflix.spinnaker.orca.clouddriver.model.Task;
 import com.netflix.spinnaker.orca.clouddriver.model.TaskId;
 import com.netflix.spinnaker.orca.clouddriver.utils.CloudProviderAware;
 import groovy.transform.CompileStatic;
+import jakarta.annotation.Nonnull;
 import java.util.*;
 import java.util.stream.Collectors;
-import javax.annotation.Nonnull;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

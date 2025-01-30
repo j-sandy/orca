@@ -31,8 +31,8 @@ import com.netflix.spinnaker.orca.clouddriver.model.Task;
 import com.netflix.spinnaker.orca.clouddriver.model.TaskId;
 import com.netflix.spinnaker.orca.pipeline.model.PipelineExecutionImpl;
 import com.netflix.spinnaker.orca.pipeline.model.StageExecutionImpl;
+import jakarta.annotation.Nullable;
 import java.util.*;
-import javax.annotation.Nullable;
 import org.junit.jupiter.api.Test;
 
 class CloudFoundryMonitorKatoServicesTaskTest {

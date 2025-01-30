@@ -28,10 +28,10 @@ import com.netflix.spinnaker.orca.webhook.exception.PreconfiguredWebhookUnauthor
 import com.netflix.spinnaker.orca.webhook.service.WebhookService;
 import com.netflix.spinnaker.orca.webhook.tasks.MonitorWebhookTask;
 import com.netflix.spinnaker.security.AuthenticatedRequest;
+import jakarta.annotation.Nonnull;
 import java.lang.reflect.Field;
 import java.util.*;
 import java.util.stream.Collectors;
-import javax.annotation.Nonnull;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

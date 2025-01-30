@@ -16,8 +16,8 @@
 
 package com.netflix.spinnaker.orca.front50.model;
 
+import jakarta.annotation.Nonnull;
 import java.util.List;
-import javax.annotation.Nonnull;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

@@ -42,7 +42,7 @@ import org.slf4j.LoggerFactory
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Component
 
-import javax.annotation.Nonnull
+import jakarta.annotation.Nonnull
 
 import static com.netflix.spinnaker.orca.pipeline.model.PipelineExecutionImpl.newOrchestration
 import static java.util.Collections.emptyList

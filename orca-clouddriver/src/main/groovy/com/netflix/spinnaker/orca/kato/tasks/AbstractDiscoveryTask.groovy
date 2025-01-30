@@ -27,7 +27,7 @@ import com.netflix.spinnaker.orca.clouddriver.utils.HealthHelper
 import groovy.transform.CompileStatic
 import org.springframework.beans.factory.annotation.Autowired
 
-import javax.annotation.Nonnull
+import jakarta.annotation.Nonnull
 
 @CompileStatic
 abstract class AbstractDiscoveryTask implements Task {

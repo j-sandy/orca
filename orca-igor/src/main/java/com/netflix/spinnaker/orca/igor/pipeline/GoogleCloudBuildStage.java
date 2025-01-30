@@ -23,7 +23,7 @@ import com.netflix.spinnaker.orca.igor.tasks.GetGoogleCloudBuildArtifactsTask;
 import com.netflix.spinnaker.orca.igor.tasks.MonitorGoogleCloudBuildTask;
 import com.netflix.spinnaker.orca.igor.tasks.StartGoogleCloudBuildTask;
 import com.netflix.spinnaker.orca.pipeline.tasks.artifacts.BindProducedArtifactsTask;
-import javax.annotation.Nonnull;
+import jakarta.annotation.Nonnull;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;

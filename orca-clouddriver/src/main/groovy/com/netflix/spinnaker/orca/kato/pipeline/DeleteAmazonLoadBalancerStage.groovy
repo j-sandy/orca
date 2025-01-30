@@ -21,7 +21,7 @@ import com.netflix.spinnaker.orca.clouddriver.pipeline.loadbalancer.DeleteLoadBa
 import groovy.transform.CompileStatic
 import org.springframework.stereotype.Component
 
-import javax.annotation.Nonnull
+import jakarta.annotation.Nonnull
 
 @Deprecated
 @Component

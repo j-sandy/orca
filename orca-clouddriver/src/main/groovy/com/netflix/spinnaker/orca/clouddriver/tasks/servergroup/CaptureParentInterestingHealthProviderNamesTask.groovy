@@ -24,7 +24,7 @@ import com.netflix.spinnaker.orca.api.pipeline.TaskResult
 import com.netflix.spinnaker.orca.clouddriver.utils.CloudProviderAware
 import org.springframework.stereotype.Component
 
-import javax.annotation.Nonnull
+import jakarta.annotation.Nonnull
 
 @Component
 class CaptureParentInterestingHealthProviderNamesTask implements Task, CloudProviderAware {

@@ -26,7 +26,7 @@ import com.netflix.spinnaker.orca.kato.pipeline.support.TargetReferenceSupport
 import groovy.transform.CompileStatic
 import org.springframework.beans.factory.annotation.Autowired
 
-import javax.annotation.Nonnull
+import jakarta.annotation.Nonnull
 
 @CompileStatic
 abstract class AbstractAsgTask implements Task {

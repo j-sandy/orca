@@ -27,7 +27,7 @@ import com.netflix.spinnaker.orca.pipeline.model.StageExecutionImpl
 import com.netflix.spinnaker.orca.pipeline.util.ContextParameterProcessor
 import spock.lang.Specification
 
-import javax.annotation.Nonnull
+import jakarta.annotation.Nonnull
 
 class ExpressionUtilsSpec extends Specification {
   private ExpressionUtils utils = new ExpressionUtils(

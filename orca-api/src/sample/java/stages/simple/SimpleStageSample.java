@@ -19,7 +19,7 @@ package stages.simple;
 import com.netflix.spinnaker.orca.api.pipeline.graph.StageDefinitionBuilder;
 import com.netflix.spinnaker.orca.api.pipeline.graph.TaskNode;
 import com.netflix.spinnaker.orca.api.pipeline.models.StageExecution;
-import javax.annotation.Nonnull;
+import jakarta.annotation.Nonnull;
 import org.pf4j.Extension;
 
 /**

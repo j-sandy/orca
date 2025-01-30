@@ -26,7 +26,7 @@ import spock.lang.Shared
 import spock.lang.Specification
 import spock.lang.Subject
 
-import javax.annotation.Nonnull
+import jakarta.annotation.Nonnull
 
 class StageNavigatorSpec extends Specification {
 

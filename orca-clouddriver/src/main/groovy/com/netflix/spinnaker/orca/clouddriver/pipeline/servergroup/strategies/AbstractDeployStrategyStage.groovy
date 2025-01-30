@@ -35,7 +35,7 @@ import groovy.util.logging.Slf4j
 import org.springframework.beans.factory.annotation.Autowired
 import com.netflix.spinnaker.orca.kato.pipeline.strategy.CloudrunSourceServerGroupTask
 
-import javax.annotation.Nonnull
+import jakarta.annotation.Nonnull
 
 import static com.netflix.spinnaker.orca.clouddriver.pipeline.servergroup.strategies.DeployStagePreProcessor.StageDefinition
 import static com.netflix.spinnaker.orca.clouddriver.pipeline.servergroup.support.TargetServerGroup.Support.locationFromStageData

@@ -25,7 +25,7 @@ import com.netflix.spinnaker.orca.pipeline.StageExecutionFactory
 import com.netflix.spinnaker.orca.api.pipeline.SyntheticStageOwner
 import org.springframework.beans.factory.annotation.Autowired
 
-import javax.annotation.Nonnull
+import jakarta.annotation.Nonnull
 
 @Deprecated
 abstract class TargetReferenceLinearStageSupport implements StageDefinitionBuilder {

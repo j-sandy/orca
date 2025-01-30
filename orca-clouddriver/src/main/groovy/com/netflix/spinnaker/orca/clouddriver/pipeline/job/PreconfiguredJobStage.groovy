@@ -27,7 +27,7 @@ import io.kubernetes.client.openapi.JSON
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Component
 
-import javax.annotation.Nonnull
+import jakarta.annotation.Nonnull
 
 @Component
 class PreconfiguredJobStage extends RunJobStage {

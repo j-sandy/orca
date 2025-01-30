@@ -27,7 +27,7 @@ import com.netflix.spinnaker.orca.api.pipeline.TaskResult
 import com.netflix.spinnaker.orca.echo.util.ManualJudgmentAuthorization
 import com.netflix.spinnaker.orca.pipeline.model.PipelineExecutionImpl
 
-import javax.annotation.Nonnull
+import jakarta.annotation.Nonnull
 import java.util.concurrent.TimeUnit
 import com.google.common.annotations.VisibleForTesting
 import com.netflix.spinnaker.orca.*

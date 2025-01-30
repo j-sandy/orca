@@ -18,9 +18,9 @@ package com.netflix.spinnaker.orca.clouddriver.model;
 import com.fasterxml.jackson.annotation.JsonAnyGetter;
 import com.fasterxml.jackson.annotation.JsonAnySetter;
 import com.netflix.spinnaker.kork.annotations.NonnullByDefault;
+import jakarta.annotation.Nullable;
 import java.util.HashMap;
 import java.util.Map;
-import javax.annotation.Nullable;
 import lombok.Data;
 
 /** A step towards a more standard cloud operation context object. */

@@ -28,7 +28,7 @@ import com.netflix.spinnaker.orca.mine.tasks.CompleteCanaryTask
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Component
 
-import javax.annotation.Nonnull
+import jakarta.annotation.Nonnull
 
 @Component
 class CanaryDestroyClusterStage implements StageDefinitionBuilder, CancellableStage {

@@ -25,8 +25,8 @@ import com.netflix.spinnaker.orca.api.pipeline.TaskResult;
 import com.netflix.spinnaker.orca.api.pipeline.models.ExecutionStatus;
 import com.netflix.spinnaker.orca.api.pipeline.models.StageExecution;
 import com.netflix.spinnaker.orca.front50.model.PluginInfo;
+import jakarta.annotation.Nonnull;
 import java.util.*;
-import javax.annotation.Nonnull;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 

@@ -18,10 +18,10 @@ package com.netflix.spinnaker.orca.clouddriver.utils;
 
 import com.netflix.spinnaker.moniker.Moniker;
 import com.netflix.spinnaker.orca.clouddriver.pipeline.servergroup.support.Location;
+import jakarta.annotation.Nonnull;
+import jakarta.annotation.Nullable;
 import java.util.Objects;
 import java.util.Optional;
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
 
 public class ClusterLockHelper {
   private static final String CLUSTER_LOCK_FORMAT =

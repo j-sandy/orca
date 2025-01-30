@@ -25,8 +25,8 @@ import com.netflix.spinnaker.orca.clouddriver.tasks.providers.aws.cloudformation
 import com.netflix.spinnaker.orca.clouddriver.tasks.providers.aws.cloudformation.EvaluateCloudFormationChangeSetExecutionTask;
 import com.netflix.spinnaker.orca.clouddriver.tasks.providers.aws.cloudformation.ExecuteCloudFormationChangeSetTask;
 import com.netflix.spinnaker.orca.clouddriver.tasks.providers.aws.cloudformation.WaitForCloudFormationCompletionTask;
+import jakarta.annotation.Nonnull;
 import java.util.Optional;
-import javax.annotation.Nonnull;
 import org.springframework.stereotype.Component;
 
 @Component

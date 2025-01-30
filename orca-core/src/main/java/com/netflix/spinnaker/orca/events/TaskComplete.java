@@ -18,7 +18,7 @@ package com.netflix.spinnaker.orca.events;
 
 import com.netflix.spinnaker.orca.api.pipeline.models.StageExecution;
 import com.netflix.spinnaker.orca.api.pipeline.models.TaskExecution;
-import javax.annotation.Nonnull;
+import jakarta.annotation.Nonnull;
 import lombok.Getter;
 
 public class TaskComplete extends ExecutionEvent {

@@ -16,9 +16,9 @@
 package com.netflix.spinnaker.orca.api.pipeline.models;
 
 import com.netflix.spinnaker.kork.annotations.Beta;
+import jakarta.annotation.Nonnull;
+import jakarta.annotation.Nullable;
 import java.util.Map;
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
 
 /** The runtime execution state of a task. */
 @Beta

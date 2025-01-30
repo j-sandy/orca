@@ -27,7 +27,7 @@ import com.netflix.spinnaker.orca.front50.Front50Service
 import com.netflix.spinnaker.orca.front50.model.Application
 import org.springframework.lang.Nullable
 
-import javax.annotation.Nonnull
+import jakarta.annotation.Nonnull
 import java.util.concurrent.TimeUnit
 
 abstract class AbstractFront50Task implements RetryableTask {

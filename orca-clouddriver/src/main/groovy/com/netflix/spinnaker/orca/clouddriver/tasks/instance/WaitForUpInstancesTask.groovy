@@ -23,7 +23,7 @@ import com.netflix.spinnaker.orca.clouddriver.model.Instance
 import com.netflix.spinnaker.orca.clouddriver.model.ServerGroup
 import com.netflix.spinnaker.orca.clouddriver.model.ServerGroup.Capacity
 
-import javax.annotation.Nonnull
+import jakarta.annotation.Nonnull
 import java.util.concurrent.TimeUnit
 import com.netflix.spinnaker.orca.clouddriver.utils.HealthHelper
 import groovy.util.logging.Slf4j

@@ -1,7 +1,7 @@
 package com.netflix.spinnaker.orca.clouddriver.model;
 
 import com.netflix.spinnaker.orca.api.operations.OperationsContext;
-import javax.annotation.Nonnull;
+import jakarta.annotation.Nonnull;
 
 public class KatoOperationsContext implements OperationsContext {
 

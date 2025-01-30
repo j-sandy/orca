@@ -28,10 +28,10 @@ import com.netflix.spinnaker.orca.pipelinetemplate.v1schema.model.PipelineTempla
 import com.netflix.spinnaker.orca.pipelinetemplate.v1schema.model.TemplateConfiguration.TemplateSource;
 import com.netflix.spinnaker.orca.pipelinetemplate.v1schema.render.DefaultRenderContext;
 import com.netflix.spinnaker.orca.pipelinetemplate.v1schema.render.Renderer;
+import jakarta.annotation.Nullable;
 import java.util.List;
 import java.util.Map;
 import java.util.NoSuchElementException;
-import javax.annotation.Nullable;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -99,9 +99,7 @@ public class PipelineTemplateService {
       try {
         return executionRepository
             .retrievePipelinesForPipelineConfigId(pipelineConfigId, criteria)
-            .toSingle()
-            .toBlocking()
-            .value();
+            .blockingFirst();
       } catch (NoSuchElementException e) {
         throw new ExecutionNotFoundException(
             "No pipeline execution could be found for config id "

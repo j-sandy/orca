@@ -20,7 +20,7 @@ import com.netflix.spinnaker.orca.api.pipeline.graph.TaskNode.Builder;
 import com.netflix.spinnaker.orca.api.pipeline.models.StageExecution;
 import com.netflix.spinnaker.orca.kato.tasks.ModifyScalingGroupTask;
 import groovy.transform.CompileStatic;
-import javax.annotation.Nonnull;
+import jakarta.annotation.Nonnull;
 import org.springframework.stereotype.Component;
 
 @Component

@@ -20,7 +20,7 @@ import com.netflix.spinnaker.orca.clouddriver.utils.CloudProviderAware
 import com.netflix.spinnaker.orca.api.pipeline.graph.StageDefinitionBuilder
 import groovy.util.logging.Slf4j
 
-import javax.annotation.Nonnull
+import jakarta.annotation.Nonnull
 
 @Slf4j
 abstract class AbstractCloudProviderAwareStage implements StageDefinitionBuilder, CloudProviderAware {

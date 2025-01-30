@@ -17,8 +17,8 @@ package com.netflix.spinnaker.orca.api.pipeline;
 
 import com.netflix.spinnaker.kork.annotations.Beta;
 import com.netflix.spinnaker.kork.plugins.api.internal.SpinnakerExtensionPoint;
+import jakarta.annotation.Nonnull;
 import java.util.Map;
-import javax.annotation.Nonnull;
 
 /**
  * ExecutionPreprocessor is a hook point that can modify an Execution upon initial receipt of the

@@ -22,12 +22,12 @@ import com.google.common.annotations.VisibleForTesting;
 import com.netflix.spinnaker.kork.annotations.Beta;
 import com.netflix.spinnaker.orca.api.pipeline.Task;
 import com.netflix.spinnaker.orca.api.pipeline.models.ExecutionStatus;
+import jakarta.annotation.Nonnull;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
 import java.util.function.Consumer;
-import javax.annotation.Nonnull;
 
 /** A node in a {@link TaskGraph} which can be either an individual task or a sub-graph. */
 @Beta

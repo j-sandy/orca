@@ -24,7 +24,7 @@ import com.netflix.spinnaker.orca.clouddriver.ForceCacheRefreshAware
 import com.netflix.spinnaker.orca.clouddriver.tasks.servergroup.CheckIfApplicationExistsForServerGroupTask
 import com.netflix.spinnaker.orca.kato.pipeline.strategy.Strategy
 
-import javax.annotation.Nonnull
+import jakarta.annotation.Nonnull
 import com.fasterxml.jackson.annotation.JsonProperty
 import com.netflix.spinnaker.moniker.Moniker
 import com.netflix.spinnaker.orca.clouddriver.FeaturesService

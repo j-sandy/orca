@@ -1,8 +1,8 @@
 package com.netflix.spinnaker.orca.igor;
 
+import jakarta.annotation.Nullable;
 import java.util.List;
 import java.util.Map;
-import javax.annotation.Nullable;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 

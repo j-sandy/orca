@@ -18,14 +18,14 @@ package com.netflix.spinnaker.orca.api.pipeline.models;
 import static java.util.Collections.emptySet;
 
 import com.netflix.spinnaker.kork.annotations.Beta;
+import jakarta.annotation.Nonnull;
+import jakarta.annotation.Nullable;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
 
 /** The runtime execution state of a Pipeline. */
 @Beta

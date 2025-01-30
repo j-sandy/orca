@@ -20,7 +20,7 @@ import com.netflix.spinnaker.orca.api.pipeline.graph.StageDefinitionBuilder;
 import com.netflix.spinnaker.orca.api.pipeline.graph.TaskNode;
 import com.netflix.spinnaker.orca.api.pipeline.models.StageExecution;
 import com.netflix.spinnaker.orca.front50.tasks.DeletePluginInfoTask;
-import javax.annotation.Nonnull;
+import jakarta.annotation.Nonnull;
 
 public class DeletePluginInfoStage implements StageDefinitionBuilder {
   @Override

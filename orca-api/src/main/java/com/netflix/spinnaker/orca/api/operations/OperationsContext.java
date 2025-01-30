@@ -1,6 +1,6 @@
 package com.netflix.spinnaker.orca.api.operations;
 
-import javax.annotation.Nonnull;
+import jakarta.annotation.Nonnull;
 
 /**
  * A placeholder for the result of {@link OperationsRunner#run} invocations.

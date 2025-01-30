@@ -18,11 +18,11 @@ package com.netflix.spinnaker.orca.bakery.tasks.manifests;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.netflix.spinnaker.kork.artifacts.model.ExpectedArtifact;
+import jakarta.annotation.Nullable;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
-import javax.annotation.Nullable;
 import lombok.Getter;
 
 @Getter

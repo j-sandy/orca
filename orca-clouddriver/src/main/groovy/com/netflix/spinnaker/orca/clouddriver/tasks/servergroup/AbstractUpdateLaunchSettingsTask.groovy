@@ -26,7 +26,7 @@ import com.netflix.spinnaker.orca.api.pipeline.TaskResult
 import com.netflix.spinnaker.orca.clouddriver.utils.CloudProviderAware
 import com.netflix.spinnaker.orca.kato.tasks.DeploymentDetailsAware
 import groovy.util.logging.Slf4j
-import javax.annotation.Nonnull
+import jakarta.annotation.Nonnull
 
 @Slf4j
 abstract class AbstractUpdateLaunchSettingsTask implements Task, DeploymentDetailsAware, CloudProviderAware {
